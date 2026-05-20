@@ -1,0 +1,12 @@
+<svg xmlns="[w3.org](http://www.w3.org/2000/svg)" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b7a4a"/>
+      <stop offset="1" stop-color="#085d39"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="70" fill="url(#g)"/>
+  <path d="M100 40a36 36 0 1 0 0 72 40 40 0 1 1 0-72z" fill="#fff" opacity=".96"/>
+  <path d="M80 56l10 18h-8l8 14h-6l-8 14-8-14h-6l8-14h-8l10-18z" fill="#fff" opacity=".95"/>
+  <text x="80" y="132" text-anchor="middle" font-family="Amiri, serif" font-size="16" fill="#ffffff">ML</text>
+</svg>

@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Madrasatul Luqman</title>
+  <meta name="description" content="Madrasatul Luqman — Qur'an, Sunnah, and holistic education." />
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap)" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="assets/images/logo.svg" alt="Madrasatul Luqman logo" />
+        <span>Madrasatul Luqman</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav">☰</button>
+      <nav id="nav" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#news">Notices</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Knowledge with Taqwa</h1>
+          <p>Rooted in Qur'an and Sunnah, nurturing character, scholarship, and community service.</p>
+          <div class="cta-row">
+            <a href="#admissions" class="btn btn-primary">Apply for 2026 Intake</a>
+            <a href="[wa.me](https://wa.me/254715254336)" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp Admissions</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="prayer-times" aria-live="polite">
+            <h2>Prayer Times</h2>
+            <ul id="prayer-list">
+              <li>Fajr — 5:10 AM</li>
+              <li>Dhuhr — 12:35 PM</li>
+              <li>Asr — 3:45 PM</li>
+              <li>Maghrib — 6:30 PM</li>
+              <li>Isha — 7:40 PM</li>
+            </ul>
+            <small>Nairobi, KE</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>About Us</h2>
+          <p>Madrasatul Luqman is a center of learning dedicated to authentic Islamic knowledge and excellence in character. We serve learners across primary and secondary levels with integrated dini and secular curricula.</p>
+          <ul class="checklist">
+            <li>Qualified ulamaa and certified teachers</li>
+            <li>Memorization (Hifdh) and Tajweed</li>
+            <li>Integrated KICD curriculum</li>
+            <li>Safe, nurturing environment</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <img src="assets/images/gallery-1.jpg" alt="Students studying Qur'an on campus" />
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="section alt">
+      <div class="container">
+        <h2>Programs</h2>
+        <p class="meta">No classes on Thursday and Friday. Breaks only during Ramadan and Eid days.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Hifdh Program</h3>
+            <p>Full-time Qur'an memorization with tajweed, daily muraja'ah, and weekly assessments.</p>
+            <p class="meta">Ages 8–18 • Boarding and Day • Classes Sat–Wed</p>
+            <p><strong>Fees:</strong> $50 per 5-day week</p>
+          </article>
+          <article class="card">
+            <h3>Weekend Madrasah</h3>
+            <p>Foundations in Aqeedah, Fiqh, Seerah, and Qur'an reading for young learners.</p>
+            <p class="meta">Saturdays & Sundays • 9am–12pm</p>
+            <p><strong>Fees:</strong> $30 per weekend</p>
+          </article>
+          <article class="card">
+            <h3>Integrated Primary/Secondary</h3>
+            <p>Islamic Studies alongside KICD subjects, building faith and future-ready skills.</p>
+            <p class="meta">Classes Sat–Wed • No classes Thu–Fri</p>
+            <p><strong>Fees:</strong> $50 per 5-day week</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Admissions</h2>
+          <p>Applications for Term 1, 2026 are open. Limited places are available.</p>
+          <ul class="checklist">
+            <li>No classes on Thursday and Friday</li>
+            <li>Breaks only during Ramadan and Eid days</li>
+            <li>Weekend Madrasah: $30 per weekend</li>
+            <li>5-day programs (Sat–Wed): $50 per week</li>
+          </ul>
+          <ol class="steps">
+            <li>Submit the form with learner details.</li>
+            <li>Interview and placement assessment.</li>
+            <li>Offer and enrollment.</li>
+          </ol>
+          <a href="assets/docs/prospectus.pdf" class="btn">Download Prospectus (PDF)</a>
+        </div>
+        <form id="admissions-form" class="form card" novalidate>
+          <h3>Application Form</h3>
+          <label>Parent/Guardian Name
+            <input type="text" name="guardian" required />
+          </label>
+          <label>Phone (KE)
+            <input type="tel" name="phone" pattern="^(\+?254|0)\d{9}$" required />
+          </label>
+          <label>Learner Name
+            <input type="text" name="learner" required />
+          </label>
+          <label>Program
+            <select name="program">
+              <option>Hifdh</option>
+              <option>Weekend Madrasah</option>
+              <option>Integrated Primary</option>
+              <option>Integrated Secondary</option>
+            </select>
+          </label>
+          <label>Message
+            <textarea name="message" rows="4" placeholder="Any details we should know?"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Submit Application</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="calendar" class="section alt">
+      <div class="container">
+        <h2>Calendar & Events</h2>
+        <div id="events" class="events"></div>
+        <small>Classes run Saturday to Wednesday. No classes on Thursday and Friday. Breaks only during Ramadan and Eid days.</small>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container gallery">
+        <h2>Gallery</h2>
+        <div class="grid">
+          <img src="assets/images/gallery-1.jpg" alt="Tajweed lesson" />
+          <img src="assets/images/gallery-2.jpg" alt="School library" />
+          <img src="assets/images/gallery-3.jpg" alt="Morning assembly" />
+          <img src="assets/images/gallery-4.jpg" alt="Students memorizing Qur'an" />
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section alt">
+      <div class="container">
+        <h2>News & Notices</h2>
+        <article class="notice">
+          <h3>Weekend Madrasah resumes</h3>
+          <p>Classes resume this Saturday, in shaa Allah. New students may register on arrival.</p>
+          <time datetime="2026-05-15">15 May 2026</time>
+        </article>
+        <article class="notice">
+          <h3>Hifdh intake interviews</h3>
+          <p>Interviews scheduled weekly on Wednesdays at 10:00am.</p>
+          <time datetime="2026-05-10">10 May 2026</time>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Contact & Location</h2>
+          <p><strong>Phone:</strong> +254 715254336</p>
+          <p><strong>Email:</strong> <a href="mailto:oshadi10@gmail.com">oshadi10@gmail.com</a></p>
+          <p><strong>Address:</strong> Example Road, Eastleigh, Nairobi</p>
+          <div class="map-wrap">
+            <iframe title="Map" width="100%" height="280" style="border:0"
+              loading="lazy" allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="[google.com](https://www.google.com/maps?q=-1.2833,36.8167&z=13&output=embed)"></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Office Hours</h3>
+          <ul class="hours">
+            <li>Mon–Wed: 8:00am–5:00pm</li>
+            <li>Sat: 9:00am–12:30pm</li>
+            <li>Thu–Fri: No classes</li>
+            <li>Sun: Closed</li>
+          </ul>
+          <a class="btn btn-whatsapp" href="[wa.me](https://wa.me/254715254336)" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Madrasatul Luqman</strong>
+        <p>“And whoever is granted wisdom has truly been granted abundant good.” — Qur'an 2:269</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#calendar">Calendar</a></li>
+          <li><a href="#news">Notices</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <ul class="footer-links">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="X">X</a></li>
+          <li><a href="#" aria-label="YouTube">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container small print">
+      <span>© 2026 Madrasatul Luqman</span>
+      <a href="#">Privacy</a>
+      <a href="#">Safeguarding</a>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
